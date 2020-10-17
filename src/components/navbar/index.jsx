@@ -6,6 +6,7 @@ const Navbar = () => {
     return (
         <div className={styles.Navbar}>
             <NavLink activeClassName={styles.active} exact to='/'>Me</NavLink>
+            <NavLink activeClassName={styles.active} exact to='/resume'>Resume</NavLink>
             <NavLink activeClassName={styles.active} exact to='/projects'>Projects</NavLink>
             <NavLink activeClassName={styles.active} exact to='/contact'>Contact</NavLink>
         </div>

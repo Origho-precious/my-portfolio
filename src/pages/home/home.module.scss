@@ -12,7 +12,7 @@
         
         & .img{
             max-width: 30%;
-            margin: 0 auto 5rem;
+            margin: auto;
 
             & img{
                 width: 100%;
@@ -24,13 +24,13 @@
             color: #FFF;
             font-size: 3rem;
             text-align: center;
+            margin: 3rem 0;
         }
 
         & .socialLinks{
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 5rem;
 
             & a{
                 display: block;

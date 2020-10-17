@@ -4,7 +4,7 @@ import styles from './footer.module.scss';
 const Footer = (props) => {
     return (
       <div className={styles.footer}>
-        <p>Inspired by</p>
+        <p>Built by Origho Precious, inspired by</p>
         <a
           href="https://lucybain.com"
           target="_blank"
