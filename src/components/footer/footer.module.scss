@@ -1,0 +1,23 @@
+.footer{
+    background: #6a3093;
+    color: #FFF;
+    text-align: center;
+    padding: 1.5rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & p{
+        font-size: 1.2rem;
+    }
+    & a{
+        color: #421d5c;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 0.5rem;
+        
+        &:hover{
+            color: #FFF;
+        }
+    }
+}
