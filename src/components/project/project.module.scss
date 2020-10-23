@@ -1,0 +1,32 @@
+.Project{
+    background: #6A3093;
+    color: #FFF;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    height: max-content;
+    transition: all 0.5s;
+
+    &:hover{
+        margin-top: -0.5rem;
+    }
+
+    & h2{
+        margin-bottom: 1rem;
+    }
+
+    & p{
+        font-size: 1rem;
+    }
+
+    & footer{
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+
+        & p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 0.8rem;
+            margin-right: 1rem;
+        }
+    }
+}

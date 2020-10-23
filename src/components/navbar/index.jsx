@@ -9,6 +9,7 @@ const Navbar = () => {
             <NavLink activeClassName={styles.active} exact to='/resume'>Resume</NavLink>
             <NavLink activeClassName={styles.active} exact to='/projects'>Projects</NavLink>
             <NavLink activeClassName={styles.active} exact to='/contact'>Contact</NavLink>
+            <NavLink activeClassName={styles.active} exact to='/resources'>Resources</NavLink>
         </div>
     );
 }
