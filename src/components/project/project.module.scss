@@ -2,20 +2,38 @@
     background: #6A3093;
     color: #FFF;
     padding: 2rem;
-    border-radius: 0.4rem;
-    height: max-content;
+    border-radius: 0.5rem;
+    height: 22rem;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     &:hover{
         margin-top: -0.5rem;
     }
 
-    & h2{
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & a {
+            color: #FFF;
+            font-size: 1.5rem;
+
+            &:hover{
+                color: #b753ff;
+            }
+        }
+    }
+
+    & .content h2{
         margin-bottom: 1rem;
     }
 
-    & p{
-        font-size: 1rem;
+    & .content p{
+        font-size: 1.1rem;
     }
 
     & footer{
