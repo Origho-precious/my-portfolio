@@ -41,6 +41,10 @@ const Resume = () => {
             </li>
             <li>
               <i className="fas fa-play"></i>
+              <p>Firebase</p>
+            </li>
+            <li>
+              <i className="fas fa-play"></i>
               <p>Nextjs</p>
             </li>
             <li>

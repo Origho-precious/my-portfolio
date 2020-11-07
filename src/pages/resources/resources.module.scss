@@ -1,0 +1,35 @@
+.Resources{
+  max-width: 50%;
+  margin: 3rem auto;
+
+  & h1 {
+    color: #6a3093;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  & ul{
+    list-style: none;
+    margin-top: 2rem;
+
+    & li {
+      margin-bottom: 3rem;
+
+      & a{
+        font-size: 1.5rem;
+        font-weight: 700;
+        display: block;
+        color: #6a3093;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+
+      & small{
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

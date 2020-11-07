@@ -7,6 +7,7 @@ import Homepage from './pages/home';
 import Resume from './pages/resume';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
+import Resources from './pages/resources';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/resume' exact component={Resume} />
         <Route path='/projects' exact component={Projects} />
         <Route path='/contact' exact component={Contact} />
+        <Route path='/resources' exact component={Resources} />
       </Switch>
       <Footer/>
     </div>
