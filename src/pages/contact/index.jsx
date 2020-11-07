@@ -40,7 +40,7 @@ class Contactpage extends Component {
                   onSubmit={(e) => this.submitHandler(e)}
                   action="mailto:origho9@gmail.com"
                   method='POST'
-                  enctype="text/plain"
+                  encType="text/plain"
                 >
                   <input
                     value={email}

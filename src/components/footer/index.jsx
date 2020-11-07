@@ -11,7 +11,8 @@ const Footer = (props) => {
           rel="noopener noreferrer"
         >
           Lucy Bain
-        </a> &nbsp; and
+        </a>{" "}
+        &nbsp; and&nbsp;
         <a
           href="https://brittanychiang.com/"
           target="_blank"

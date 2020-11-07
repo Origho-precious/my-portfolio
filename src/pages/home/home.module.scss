@@ -1,6 +1,6 @@
 .Home{
     background: #6a3093;
-    height: 90vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,8 +11,8 @@
         margin: auto;
         
         & .img{
-            max-width: 30%;
-            margin: auto;
+            max-width: 15rem;
+            margin: 3rem auto;
 
             & img{
                 width: 100%;
@@ -24,13 +24,14 @@
             color: #FFF;
             font-size: 3rem;
             text-align: center;
-            margin: 3rem 0;
+            margin: 1.5rem 0 3rem;
         }
 
         & .socialLinks{
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 4rem;
 
             & a{
                 display: block;
@@ -46,3 +47,23 @@
     }
 }
 
+@media(max-width: 710px){
+    .Home {
+        & .content {
+            max-width: 80%;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .Home {
+        & .content {
+            max-width: 90%;
+
+            & .img {
+                max-width: 70%;
+                margin: 3rem auto;
+            }
+        }
+    }
+}

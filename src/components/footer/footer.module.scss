@@ -11,6 +11,7 @@
         font-size: 1rem;
         letter-spacing: 0.1rem;
     }
+
     & a{
         color: #421d5c;
         font-size: 1.1rem;
@@ -19,6 +20,17 @@
         
         &:hover{
             color: #FFF;
+        }
+    }
+}
+
+@media(max-width: 710px) {
+    .footer {
+        display: block;
+
+        & a {
+            display: inline-block;
+            margin-left: 0;
         }
     }
 }
