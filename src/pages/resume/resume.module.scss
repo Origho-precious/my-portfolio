@@ -67,3 +67,123 @@
         margin-top: 5rem;
     }
 }
+
+
+@media(max-width: 1100px){
+    .Resume {
+        max-width: 70%;
+    }
+}
+
+
+@media(max-width: 800px){
+    .Resume {
+        max-width: 80%;
+    }
+}
+
+@media(max-width: 700px){
+    .Resume {
+        max-width: 75%;
+
+        & h1 {
+            font-size: 2rem;
+        }
+
+        & .intro {
+            & header {
+                & a {
+                    font-size: 1rem;
+                }
+            }
+
+            & p {
+                font-size: 1.2rem;
+            }
+
+            & ul {
+                max-width: 80%;
+                margin-top: 1rem;
+                list-style: none;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+                & li {
+                    display: flex;
+                    align-items: center;
+
+                    & i {
+                        font-size: 0.7rem;
+                        margin-right: 0.5rem;
+                        color: #421d5c;
+                    }
+
+                    & p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .Resume {
+        max-width: 80%;
+
+        & h1 {
+            font-size: 2rem;
+        }
+
+        & .intro {
+            & header {
+                & a {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .Resume {
+        max-width: 90%;
+
+        & .intro{
+            & ul {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 330px){
+    .Resume {
+        max-width: 90%;
+
+        & .intro{
+            & header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+
+                & h1{
+                    font-size: 2.5rem;
+                }
+
+                & a {
+                    margin-top: 0.5rem;
+                }
+
+                & p{
+                    text-align: justify;
+                }
+            }
+
+            & ul{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

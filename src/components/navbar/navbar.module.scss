@@ -2,6 +2,34 @@
     background: #7f3caf;
     max-width: 100%;
     padding: 1.1rem 2rem;
+
+    & .mobileNav{
+        display: none;
+
+        & .m_links {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            & a {
+                display: block;
+                color: #FFF;
+                font-size: 1.1rem;
+                font-weight: 700;
+                padding: 0.5rem 0.9rem;
+                border-radius: 0.4rem;
+                margin: 0 0.8rem;
+
+                &:hover {
+                    background: #6a3093;
+                }
+            }
+
+            & .active {
+                background: #6a3093;
+            }
+        }
+    }
     
     & .links{
         display: flex;
@@ -36,23 +64,32 @@
     .Navbar {
         position: relative;
         padding: 2rem 1rem;
-        
-        & .links {
-            margin: 2rem 0 0;
-            flex-direction: column;
 
-            & a {
-                margin-bottom: 1.2rem;
+        & .mobileNav{
+            display: block;
 
-                &:hover {
+            & .m_links {
+                margin: 2rem 0 0;
+                flex-direction: column;
+    
+                & a {
+                    margin-bottom: 1.2rem;
+    
+                    &:hover {
+                        background: #6a3093;
+                    }
+                }
+    
+                & .active {
                     background: #6a3093;
                 }
             }
-
-            & .active {
-                background: #6a3093;
-            }
         }
+
+        & .links {
+           display: none;
+        }
+        
 
         & .hamburger {
             display: block;
