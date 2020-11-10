@@ -32,19 +32,44 @@ const Navbar = () => {
       <div className={styles.mobileNav}>
         <animated.div style={props}>
           <div className={styles.m_links}>
-            <NavLink activeClassName={styles.active} exact to="/">
+            <NavLink
+              onClick={() => setShowNav(!showNav)}
+              activeClassName={styles.active}
+              exact
+              to="/"
+            >
               Me
             </NavLink>
-            <NavLink activeClassName={styles.active} exact to="/resume">
+            <NavLink
+              onClick={() => setShowNav(!showNav)}
+              activeClassName={styles.active}
+              exact
+              to="/resume"
+            >
               Resume
             </NavLink>
-            <NavLink activeClassName={styles.active} exact to="/projects">
+            <NavLink
+              onClick={() => setShowNav(!showNav)}
+              activeClassName={styles.active}
+              exact
+              to="/projects"
+            >
               Projects
             </NavLink>
-            <NavLink activeClassName={styles.active} exact to="/contact">
+            <NavLink
+              onClick={() => setShowNav(!showNav)}
+              activeClassName={styles.active}
+              exact
+              to="/contact"
+            >
               Contact
             </NavLink>
-            <NavLink activeClassName={styles.active} exact to="/resources">
+            <NavLink
+              onClick={() => setShowNav(!showNav)}
+              activeClassName={styles.active}
+              exact
+              to="/resources"
+            >
               Resources
             </NavLink>
           </div>
