@@ -1,5 +1,5 @@
 .Projects{
-    max-width: 75%;
+    max-width: 80%;
     margin: 2rem auto;
 
     & h1{
@@ -12,5 +12,131 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.5rem;
+    }
+}
+
+@media(max-width: 1100px){
+    .Projects {
+        max-width: 65%;
+
+        &>section {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media(max-width: 1000px){
+    .Projects {
+        max-width: 75%;
+        margin: 2rem auto;
+
+        & h1 {
+            color: #6a3093;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &>section {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 800px){
+    .Projects {
+        max-width: 85%;
+        margin: 2rem auto;
+
+        & h1 {
+            color: #6a3093;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &>section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .Projects {
+        max-width: 60%;
+        margin: 2rem auto;
+
+        & h1 {
+            color: #6a3093;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &>section {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .Projects {
+        max-width: 60%;
+        margin: 2rem auto;
+
+        & h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        &>section {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 520px){
+    .Projects {
+        max-width: 65%;
+        margin: 2rem auto;
+
+        & h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        &>section {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 450px){
+    .Projects {
+        max-width: 80%;
+        margin: 2rem auto;
+
+        & h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 330px){
+    .Projects {
+        max-width: 90%;
+        margin: 2rem auto;
+
+        & h1{
+            font-size: 1.8rem;
+        }
     }
 }

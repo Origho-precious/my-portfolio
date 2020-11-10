@@ -39,12 +39,30 @@
     & footer{
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         margin-top: 2rem;
 
         & p{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 0.8rem;
             margin-right: 1rem;
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .Project {
+        padding: 1.5rem;
+        border-radius: 0.9rem;
+        height: 20rem;
+
+        & .content h2 {
+            font-size: 1.3rem;
+        }
+
+        & .content p {
+            font-size: 1rem;
         }
     }
 }

@@ -22,7 +22,7 @@
             border-radius: 0.3rem;
             outline: none;
             height: 2.8rem;
-            width: 35%;
+            width: 13rem;
             font-size: 1.1rem;
             padding: 0 1rem;
             margin-bottom: 1rem;
@@ -77,5 +77,32 @@
     & img{
         width: 10rem;
 
+    }
+}
+
+@media(max-width: 1100px){
+    .Contact {
+        max-width: 65%;
+    }
+}
+
+@media(max-width: 840px){
+    .Contact {
+        max-width: 85%;
+    }
+}
+
+@media(max-width: 500px){
+    .Contact {
+        max-width: 90%;
+
+        & h1 {
+            color: #333;
+            font-size: 2rem;
+        }
+
+        & p {
+            font-size: 1.1rem;
+        }
     }
 }
