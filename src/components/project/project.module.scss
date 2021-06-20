@@ -3,7 +3,7 @@
     color: #FFF;
     padding: 2rem;
     border-radius: 0.5rem;
-    height: 22rem;
+    min-height: 22rem;
     transition: all 0.5s;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@
     .Project {
         padding: 1.5rem;
         border-radius: 0.9rem;
-        height: 20rem;
+        min-height: 20rem;
 
         & .content h2 {
             font-size: 1.3rem;
