@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './resume.module.scss';
-import resume from '../../assets/Resume.docx';
+import resume from "../../assets/Origho Precious Resume.docx";
 import Experiences from '../../components/experiences';
 import Education from '../../components/education';
 
@@ -41,11 +41,23 @@ const Resume = () => {
 						</li>
 						<li>
 							<i className="fas fa-play"></i>
-							<p>Reactjs and Redux</p>
+							<p>Reactjs & Redux</p>
 						</li>
 						<li>
 							<i className="fas fa-play"></i>
 							<p>Nextjs</p>
+						</li>
+						<li>
+							<i className="fas fa-play"></i>
+							<p>TypeScript</p>
+						</li>
+						<li>
+							<i className="fas fa-play"></i>
+							<p>Nodejs & Expressjs</p>
+						</li>
+						<li>
+							<i className="fas fa-play"></i>
+							<p>MongoDB</p>
 						</li>
 					</ul>
 				</section>
