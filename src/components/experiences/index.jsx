@@ -15,7 +15,7 @@ class Experiences extends Component {
 						<h3>
 							Frontend developer <span>@IjatTechnologies</span>
 						</h3>
-						<p>February 2020 - December 2020</p>
+						<p>August 2019 - November 2020</p>
 					</header>
 					<div className={styles.text}>
 						<ul>
