@@ -1,12 +1,12 @@
 export const projects = [
-  {
+	{
 		id: 0,
 		title: "GPA Calculator",
-		repoUrl: "https://github.com/Origho-precious/Realtime-Chat-App",
-		siteUrl: "https://dizcuzz.netlify.app/",
-		stack: ["React", "Redux", "Firebase"],
+		repoUrl: "https://github.com/Origho-precious/GPA-Calculator",
+		siteUrl: "https://gp-calculator.netlify.app/",
+		stack: ["HTML", "CSS", "Bootstrap 4"],
 		description:
-			"A realtime chat app for muliple user, users are identified by their emails.",
+			"GPA Calculator for Nigerian Universities based on 5.0 grading scheme.",
 	},
 	{
 		id: 1,
