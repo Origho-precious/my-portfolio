@@ -42,17 +42,14 @@ class Experiences extends Component {
 			return (
 				<div className={styles.experience}>
 					<header>
-						<h3>Frontend Developer</h3>
-						<p>July 2020 - Present</p>
+						<h3>Part-time Freelance Developer</h3>
+						<p>July 2020 - June 2021</p>
 					</header>
 					<div className={styles.text}>
 						<ul>
 							<li>
 								<i className="fas fa-play"></i>
-								<p>
-									I'm a part-time freelancer and I also collaborate with my
-									friends on side projects.
-								</p>
+								<p>I'm a part-time freelancer Software developer.</p>
 							</li>
 						</ul>
 					</div>
@@ -63,7 +60,7 @@ class Experiences extends Component {
 				<div className={styles.experience}>
 					<header>
 						<h3>
-							Frontend developer <span>@Useparallel</span>
+							Software developer <span>@Useparallel</span>
 						</h3>
 						<p>December 2020 - Present</p>
 					</header>
@@ -76,8 +73,9 @@ class Experiences extends Component {
 									<a href="https://twitter.com/useparallel" trget="_blank">
 										Parallel
 									</a>{" "}
-									as a frontend developer. We work with: Nextjs, Typescript,
-									Tailwindcss and styled-components.
+									as a Software developer. Here we work with: Nextjs,
+									Typescript, Redux, Tailwindcss and styled-components on the
+									frontend and Nodejs with loopbackls on the backend.
 								</p>
 							</li>
 						</ul>
