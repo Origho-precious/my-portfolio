@@ -20,14 +20,14 @@ class Experiences extends Component {
 					<div className={styles.text}>
 						<ul>
 							<li>
-								<i className="fas fa-play"></i>
+								<i className="fas fa-play" />
 								<p>
 									Writing modern, and performant code for client projects and
 									company projects
 								</p>
 							</li>
 							<li>
-								<i className="fas fa-play"></i>
+								<i className="fas fa-play" />
 								<p>
 									Working with varieties of Languages, libraries, platforms and
 									frameworks e.g HTML, CSS(Sass), Bootstrap 4, Javascript,
@@ -48,7 +48,7 @@ class Experiences extends Component {
 					<div className={styles.text}>
 						<ul>
 							<li>
-								<i className="fas fa-play"></i>
+								<i className="fas fa-play" />
 								<p>I'm a part-time freelancer Software developer.</p>
 							</li>
 						</ul>
@@ -60,23 +60,27 @@ class Experiences extends Component {
 				<div className={styles.experience}>
 					<header>
 						<h3>
-							Software developer <span>@Useparallel</span>
+							Software developer - Part-time<span>@Useparallel</span>
 						</h3>
 						<p>December 2020 - Present</p>
 					</header>
 					<div className={styles.text}>
 						<ul>
 							<li>
-								<i className="fas fa-play"></i>
+								<i className="fas fa-play" />
 								<p>
-									I'm work at{" "}
+									I work at{" "}
 									<a href="https://twitter.com/useparallel" trget="_blank">
 										Parallel
 									</a>{" "}
 									as a Software developer. Here we work with: Nextjs,
 									Typescript, Redux, Tailwindcss and styled-components on the
-									frontend and Nodejs with loopbackls on the backend.
+									frontend.
 								</p>
+							</li>
+							<li>
+								<i className="fas fa-play" />
+								<p>On the backend, we use Nodejs and loopbackjs</p>
 							</li>
 						</ul>
 					</div>
