@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./resume.module.scss";
-import resume from "../../assets/Origho Precious Resume.docx";
+import resume from "../../assets/resume.pdf";
 import Experiences from "../../components/experiences";
 import Education from "../../components/education";
 
