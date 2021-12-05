@@ -28,18 +28,10 @@ const Resume = () => {
 					apps to smart contracts written in Ethereum, Solana and Near
 					blockchains.
 				</p>
-				<p style={{ marginTop: "1rem" }}>Technologies I work with currently:</p>
+				<p style={{ marginTop: "1rem" }}>Technologies I know:</p>
 				<ul>
 					<li>
 						<i className="fas fa-play" /> <p>HTML & CSS(Sass)</p>
-					</li>
-					<li>
-						<i className="fas fa-play" />
-						<p>TailwindCSS</p>
-					</li>
-					<li>
-						<i className="fas fa-play" />
-						<p>Styled-Components</p>
 					</li>
 					<li>
 						<i className="fas fa-play" />
@@ -47,15 +39,11 @@ const Resume = () => {
 					</li>
 					<li>
 						<i className="fas fa-play" />
-						<p>Reactjs & Redux</p>
-					</li>
-					<li>
-						<i className="fas fa-play" />
-						<p>Nextjs</p>
-					</li>
-					<li>
-						<i className="fas fa-play" />
 						<p>TypeScript</p>
+					</li>
+					<li>
+						<i className="fas fa-play" />
+						<p>Reactjs (& Nextjs)</p>
 					</li>
 					<li>
 						<i className="fas fa-play" />
