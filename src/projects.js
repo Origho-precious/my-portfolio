@@ -54,4 +54,19 @@ export const projects = [
 		description:
 			"An e-commerce app. it has 2 parts; admin and users part. Admin can add & update products, update users and orders. Uses PayPal API for payment (test payment details are in repo readme).",
 	},
+	{
+		id: 5,
+		title: "Doge Capital",
+		repoUrl: null,
+		siteUrl: "https://www.thedogecapital.com/",
+		stack: [
+			"Nextjs",
+			"Redux",
+			"tailwindcss",
+			"Typescript",
+			"@solana/web3.js",
+		],
+		description:
+			"This is a contract project for an NFT marketplace by Doge Capital",
+	},
 ];
