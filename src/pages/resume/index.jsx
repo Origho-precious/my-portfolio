@@ -19,13 +19,14 @@ const Resume = () => {
 					<span aria-label="img" role="img">
 						👋
 					</span>
-					, My name is Precious Origho, a Sofware Developer based in
-					Portharcourt, Rivers State, Nigeria. I enjoy creating the frontend of
-					things that live on the internet as well as building servers they
-					interact with, whether that be websites app, or anything in between. I
-					keep learning new technologies to improve my skillset and build more
-					pixel-perfect, and performant web apps. I'm currently interested in
-					blockchain development and will be exploring it pretty soon.
+					, My name is Precious Origho, I'm a Software Developer and Technical
+					writer who loves building web applications, learning and explaining
+					Programming concepts. I’m also a core team member of Google’s
+					Developer Student Club. I have 2+ years of experience working as a
+					Software Developer. <br /> I'm a Blockchain Developer also. I write
+					smart contracts with Solidity and have experience connecting frontend
+					apps to smart contracts written in Ethereum, Solana and Near
+					blockchains.
 				</p>
 				<p style={{ marginTop: "1rem" }}>Technologies I work with currently:</p>
 				<ul>
@@ -63,6 +64,14 @@ const Resume = () => {
 					<li>
 						<i className="fas fa-play" />
 						<p>MongoDB</p>
+					</li>
+					<li>
+						<i className="fas fa-play" />
+						<p>Solidity</p>
+					</li>
+					<li>
+						<i className="fas fa-play" />
+						<p>web3.js</p>
 					</li>
 				</ul>
 			</section>

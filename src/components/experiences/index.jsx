@@ -42,14 +42,25 @@ class Experiences extends Component {
 			return (
 				<div className={styles.experience}>
 					<header>
-						<h3>Part-time Freelance Developer</h3>
-						<p>July 2020 - June 2021</p>
+						<h3>
+							Frontend Developer - Contract
+							<span>
+								<a href="https://www.thedogecapital.com" trget="_blank">
+									thedogecapital
+								</a>
+							</span>
+						</h3>
+						<p>November 2021 - Present</p>
 					</header>
 					<div className={styles.text}>
 						<ul>
 							<li>
 								<i className="fas fa-play" />
-								<p>I'm a part-time freelancer Software developer.</p>
+								<p>
+									I'm working with thedogecapital to revamp their web app. On
+									this project, I'm working with Next.js, TypeScript and Redux.
+									I'm also interacting with a Solana smart contract.
+								</p>
 							</li>
 						</ul>
 					</div>
@@ -70,7 +81,7 @@ class Experiences extends Component {
 								<i className="fas fa-play" />
 								<p>
 									I work at{" "}
-									<a href="https://twitter.com/useparallel" trget="_blank">
+									<a href="https://beta.useparallel.com" trget="_blank">
 										Parallel
 									</a>{" "}
 									as a Software developer. Here we work with: Nextjs,
@@ -107,7 +118,7 @@ class Experiences extends Component {
 							className={show === 1 ? styles.active : null}
 							onClick={() => this.setState({ show: 1 })}
 						>
-							Freelancing
+							Freelance/Contracting
 						</p>
 						<p
 							className={show === 2 ? styles.active : null}
